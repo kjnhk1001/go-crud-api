@@ -1,0 +1,15 @@
+# .gitignore
+
+# Ignore .env files in the entire project
+**/.env
+
+# Ignore compiled binary files (just in case)
+golang/app/*.exe
+golang/app/*.o
+golang/app/*.a
+
+# Ignore Go vendor directory
+golang/app/vendor/
+
+# Ignore Docker-related files (optional, if you don't want to include them)
+docker-compose.override.yml
